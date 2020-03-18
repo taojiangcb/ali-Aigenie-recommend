@@ -1,0 +1,29 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558 
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "cpFile",
+      "type": "npm",
+      "script": "cpFile",
+      "problemMatcher": []
+    },
+    {
+      "label": "tsc",
+      "type": "typescript",
+      "tsconfig": "tsconfig.json",
+      "problemMatcher": [
+        "$tsc"
+      ],
+      "group": "build"
+    },
+    {
+      "label":"build:dev",
+      "type": "shell",
+      "command":"tsc && gulp cpFile",
+      "group": "build"
+    }
+
+  ]
+}
