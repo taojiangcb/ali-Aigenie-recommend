@@ -8,12 +8,8 @@ export function simpleError(err) {
   // Log.errorLog(err_msg);
 }
 
-
-
 export async function errorHandler(ctx: Context, next: any) {
-  try {
-    await next();
-  }
+  try { await next(); }
   catch (err) {
     // Log.errorLog(JSON.stringify(err.message || err.stack));
     // 未知异常状态，默认使用 500

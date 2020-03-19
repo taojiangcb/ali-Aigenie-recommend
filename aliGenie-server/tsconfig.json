@@ -56,6 +56,6 @@
     "node_modules"
   ],
   "include": [
-    "./src", "gulpfile.js"
+    "./src", "gulpfile.js", ".vscode/doc"
   ]
 }

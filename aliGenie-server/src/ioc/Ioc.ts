@@ -3,9 +3,6 @@ import { fluentProvide, provide, buildProviderModule } from 'inversify-binding-d
 import TAGS from '../constant/Tags';
 import TYPES from '../constant/Types';
 
-
-
-
 const provideThrowable = (identifier, name) => {
   return fluentProvide(identifier)
     .whenTargetNamed(name)
