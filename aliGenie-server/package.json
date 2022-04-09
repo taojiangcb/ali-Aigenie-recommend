@@ -34,7 +34,7 @@
     "koa-swig": "^2.2.1",
     "koa2-cors": "^2.0.6",
     "log4js": "^6.1.2",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "reflect-metadata": "^0.1.13",
     "shelljs": "^0.8.3",
     "yargs": "^15.1.0"
